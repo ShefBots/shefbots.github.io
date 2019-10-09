@@ -9,4 +9,4 @@ permalink: /
 
 # ShefBots
 
-We're into #PiWars. More coming soon.
+We're into #PiWars. More coming soon...
