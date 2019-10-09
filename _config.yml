@@ -3,8 +3,8 @@ description: "ShefBots"
 baseurl: "/"
 url: "https://shefbots.github.io"
 
-#header_pages:
-#  - index.md
+header_pages:
+  - index.md
 #  - peter.md
 #  - about.md
 #  - contact.md

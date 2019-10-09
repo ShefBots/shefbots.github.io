@@ -4,6 +4,8 @@ layout: home
 permalink: /
 ---
 
+<center>![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)</center>
+
 # ShefBots
 
-More coming soon.
+We're into #PiWars. More coming soon.
