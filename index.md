@@ -4,7 +4,8 @@ layout: home
 permalink: /
 ---
 
-<center>![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)</center>
+![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)
+{: style="text-align: center;"}
 
 # ShefBots
 
