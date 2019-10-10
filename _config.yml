@@ -5,13 +5,15 @@ url: "https://shefbots.github.io"
 
 header_pages:
   - index.md
-#  - peter.md
-#  - about.md
-#  - contact.md
+#  - members.md
 
 style: dark
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+
+banner: |
+  ![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)
+  {: style="text-align: center;"}
 
 # Build settings
 markdown: kramdown
