@@ -2,10 +2,11 @@
 title: /
 layout: home
 permalink: /
+
+#![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)
+#{: style="text-align: center;"}
 ---
 
-![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)
-{: style="text-align: center;"}
 
 # ShefBots
 
