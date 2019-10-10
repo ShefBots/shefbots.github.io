@@ -11,6 +11,7 @@ style: dark
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
+# this is markdownified
 banner: |
   ![ShefBots Logo]({{ site.url }}/assets/shefbots_logo.png)
   {: style="text-align: center;"}
