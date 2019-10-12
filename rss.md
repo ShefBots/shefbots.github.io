@@ -5,4 +5,4 @@ permalink: /rss
 ---
 
 # RSS/Atom feed
-Avaialble at [/feed.xml].
+Avaialble at (/feed.xml).
