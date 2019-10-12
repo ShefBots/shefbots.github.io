@@ -5,7 +5,6 @@ permalink: /members
 ---
 
 # Members
-Under construction, but so far:
 - Blayze
 - Chris
 - Fred
