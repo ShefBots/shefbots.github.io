@@ -18,3 +18,6 @@ banner: '<p style="text-align: center;"><img src="https://shefbots.github.io/ass
 # Build settings
 markdown: kramdown
 remote_theme: b2a3e8/jekyll-theme-console
+
+plugins:
+  - jekyll-feed
