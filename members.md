@@ -8,7 +8,7 @@ permalink: /members
 - Blayze
 - Chris
 - Fred
-- Harry
+- [Harry](http://keiththerobot.uk/)
 - Peter
 - Robbie
 
