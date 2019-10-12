@@ -20,4 +20,4 @@ We decided to form two/three person groups to specialise on the robot design. Br
 ![A chassis design idea]({{ site.url }}/assets/191009_chassis.png)
 {: style="text-align: center;"}
 
-Still, the rest of us are thinking in the background, pondering such questions as "Where are the flashing LEDs going to go?" - and I've just done finished this blog post! Stay tuned for more soon.
+Still, the rest of us are thinking in the background, pondering such questions as "Where are the flashing LEDs going to go?" - and I've just finished this blog post! Stay tuned for more soon.
