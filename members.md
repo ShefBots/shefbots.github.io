@@ -5,7 +5,7 @@ permalink: /members
 ---
 
 # Members
-- Blayze - [@Blayzeing](https://twitter.com/Blayzeing)
+- [Blayze](http://blayze.tech/) - [@Blayzeing](https://twitter.com/Blayzeing)
 - [Chris](http://zodiusinfuser.uk/) - [@ZodiusInfuser](https://twitter.com/ZodiusInfuser)
 - Fred - [@theguruofthree](https://twitter.com/theguruofthree)
 - [Harry](http://keiththerobot.uk/) - [@harrymerckel](https://twitter.com/harrymerckel)
