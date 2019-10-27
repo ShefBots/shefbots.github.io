@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monday Meetings"
-date:   2018-10-12 14:11:00 +0100
+date:   2019-10-12 14:11:00 +0100
 categories: meetings
 ---
 
