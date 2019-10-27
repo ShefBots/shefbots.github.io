@@ -17,7 +17,7 @@ We discussed a lot about what motors and electronics we might use in the robot, 
 
 We decided to form two/three person groups to specialise on the robot design. Broadly, we have three sub-teams focusing on Design & Construction, Electronics, and AI & Software. At the moment most of the work is being carried out by the Design & Construction team:
 
-![A chassis design idea]({{ site.url }}/assets/191009_chassis.png)
+![A chassis design idea]({{ site.url }}/assets/191009_chassis.png){: style="height: 10em;"}
 {: style="text-align: center;"}
 
 Still, the rest of us are thinking in the background, pondering such questions as "Where are the flashing LEDs going to go?" - and I've just finished this blog post! Stay tuned for more soon.
