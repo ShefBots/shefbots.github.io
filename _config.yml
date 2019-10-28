@@ -15,7 +15,7 @@ author: Fred
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-banner: '<p style="text-align: center;"><img src="https://shefbots.github.io/assets/shefbots_logo.png" alt="ShefBots Logo" /></p>'
+banner: '<p style="text-align: center;"><a href="/"><img src="https://shefbots.github.io/assets/shefbots_logo.png" alt="ShefBots Logo" /></a></p>'
 
 # Build settings
 markdown: kramdown
