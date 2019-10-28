@@ -10,4 +10,4 @@ permalink: /
 
 # ShefBots
 
-We're into #PiWars.
+We're into #PiWars. Expect posts detailing our journey to building a robot for the 2020 competition. From hardware and design to electronics and [software](https://github.com/ShefBots), there'll be something for everyone. For the curious, our basic design will include mecanum wheels, a gripper, LiPo cells, a camera, and of course, a Raspberry Pi. 
