@@ -1,3 +1,3 @@
 # shefbots.github.io
 
-Website for ShefBots!
+[Website for ShefBots](https://shefbots.github.io)!
