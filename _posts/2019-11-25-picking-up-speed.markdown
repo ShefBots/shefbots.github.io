@@ -29,7 +29,7 @@ Myself, following up from investigating IMUs last week - those pesky inertial me
 ![Robot Battle]({{ site.url }}/assets/191125_robot1.png){: style="height: 14em;"} ![Robot Battle]({{ site.url }}/assets/191125_robot2.png){: style="height: 14em;"} 
 {: style="text-align: center;"}
 
-Based on how Robot Battle works, I'm writing on a simulator (in Python) to test out how our Pi Wars bot would move and solve the AI challenges. It's called piwarsimulator and is available on GitHub now at https://github.com/ShefBots/piwarsimulator/ (the mis-spelling is intention to make it easier to type!). It doesn't actually do any robot simulation yet, just renders the world. Currently the white dot is the robot, the small blue dot is a barrel, and the big blue dot is the zone to drop the barrel off at - a la [Eco-Disaster](https://piwars.org/2020-competition/challenges/eco-disaster/). I hope something like this can encourage more teams to engage with the AI challenges, even if they don't feel up to figuring out any complicated sensing via image processing or some such.
+Based on how Robot Battle works, I'm writing on a simulator (in Python) to test out how our Pi Wars bot would move and solve the AI challenges. It's called piwarsimulator and is available on [GitHub](https://github.com/ShefBots/piwarsimulator/) as "piwarsimulator" - the mis-spelling is intention to make it easier to type. It doesn't actually do any robot simulation yet, just renders the world. Currently the white dot is the robot, the small blue dot is a barrel, and the big blue dot is the zone to drop the barrel off at - a la [Eco-Disaster](https://piwars.org/2020-competition/challenges/eco-disaster/). I hope something like this can encourage more teams to engage with the AI challenges, even if they don't feel up to figuring out any complicated sensing via image processing or some such.
 
 ![piwarsimulator]({{ site.url }}/assets/191125_piwarsimulator.png){: style="height: 14em;"}
 {: style="text-align: center;"}
@@ -41,7 +41,7 @@ The last thing to talk about brings us full circle. If you recall that our motor
 
 Diving into a little bit more detail, Chris sent me this graph that shows the requested wheel angle and the actual wheel angle moving towards it. This result after tuning the controller has the wheel moving with a slight delay, but without over-shooting, which is great for precise fine control. You can think of this type of PID position control a list of commands for the wheels. However, we're more interested in moving the correct distance than having lots of specific orders carried out. So rather than control the angle of the wheel, we want to control the wheel's velocity. This more gracefully handles things like wheel slip and as a bonus will let us more easily track position. Chris says he'll be adapting his code to velocity control this week.
 
-![PID algorithm]({{ site.url }}/assets/191125_pd.png){: style="height: 14em;"}
+![PID algorithm]({{ site.url }}/assets/191125_pid.png){: style="height: 14em;"}
 {: style="text-align: center;"}
 
 Moving forwards (at the correct velocity!) we should be at about the point where we have enough background work done (and materials) to really move forward on construction. I'm sure at our next meeting we'll be ironing out those chassis details. In the meantime, general chassis work, gripper design, camera work, remote control, local logic, and precision movement work continue on.
