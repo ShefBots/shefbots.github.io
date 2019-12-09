@@ -27,7 +27,7 @@ All of the motors, electronics, and vision stuff sit on top of a chassis of cour
 ![The chassis design]({{ site.url }}/assets/191209_chassis1.png){: style="height: 14em;"} ![The chassis in reality]({{ site.url }}/assets/191209_chassis2.jpg){: style="height: 14em;"}
 {: style="text-align: center;"}
 
-Finally, at the heart of the robot sits the main Raspberry Pi, which at the moment looks like it will be using the [piwarsimulator](https://github.com/ShefBots/piwarsimulator/) I started developing. This is a test platform to simulate how the robot will tackle the AI challenges. As it stands, the simulator is programmed with a simulated eco-disaster environment that the robot tries to navigate to sort the barrels. It doesn't do this terribly well for now as I haven't yet implemented collisions or circumnavigation - that's on the to do list.
+Finally, at the heart of the robot sits the main Raspberry Pi, which at the moment looks like it will be using the [piwarsimulator](https://github.com/ShefBots/piwarsimulator/) I started developing. This is a test platform to simulate how the robot will tackle the AI challenges. As it stands, the simulator is programmed with a simulated eco-disaster environment that the robot tries to navigate to sort the barrels. It doesn't do this terribly well for now as I haven't yet implemented collisions or circumnavigation - that's on the to do list. Click play on the video below to see the simulator in action!
 
 <video height="640" width="480" style="margin-left: auto; margin-right: auto; width: 320px; height: 240px; display: block; border: solid 1px white; margin-top: 5px; margin-bottom: 5px" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/191209_simulator.mp4">
