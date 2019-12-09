@@ -29,7 +29,7 @@ All of the motors, electronics, and vision stuff sit on top of a chassis of cour
 
 Finally, at the heart of the robot sits the main Raspberry Pi, which at the moment looks like it will be using the [piwarsimulator](https://github.com/ShefBots/piwarsimulator/) I started developing. This is a test platform to simulate how the robot will tackle the AI challenges. As it stands, the simulator is programmed with a simulated eco-disaster environment that the robot tries to navigate to sort the barrels. It doesn't do this terribly well for now as I haven't yet implemented collisions or circumnavigation - that's on the to do list.
 
-<video height="640" width="480" style="margin-left: auto; margin-right: auto; width: 640px; height: 480px; display: block" controls>
+<video height="640" width="480" style="margin-left: auto; margin-right: auto; width: 320; height: 24px; display: block; border: solid 1px white; margin-top: 5px; margin-bottom: 5px" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/191209_simulator.mp4">
   <source type="video/ogg" src="{{ site.baseurl }}/assets/191209_simulator.ogv">
   <source type="video/webm" src="{{ site.baseurl }}/assets/191209_simulator.webm">
