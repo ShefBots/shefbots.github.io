@@ -6,6 +6,7 @@ url: "https://shefbots.github.io"
 header_pages:
   - index.md
   - members.md
+  - support.md
   - rss.md
 
 style: dark
