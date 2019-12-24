@@ -12,4 +12,4 @@ permalink: /members
 - Peter
 - Robbie - [@RobbieKinghorn](https://twitter.com/RobbieKinghorn)
 - [Chris](http://zodiusinfuser.uk/) - [@ZodiusInfuser](https://twitter.com/ZodiusInfuser)
-
+- Simon (not pictured)
