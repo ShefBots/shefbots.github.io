@@ -2,6 +2,7 @@
 layout: post
 title:  "How we ended up with 4 wheels"
 date:   2020-01-06 19:26:00 +0100
+author: Chris
 categories: details chassis
 ---
 
