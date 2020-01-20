@@ -12,4 +12,4 @@ permalink: /members
 - Peter (Retired)
 - Robbie - [@RobbieKinghorn](https://twitter.com/RobbieKinghorn)
 - [Chris](http://zodiusinfuser.uk/) - [@ZodiusInfuser](https://twitter.com/ZodiusInfuser)
-- [Simon](http://simongt.com/) - [@morphashark](https://twitter.com/morphashark) (not pictured)
+- [Simon](http://simongt.com/) - [@morphashark](https://twitter.com/morphashark) (inset photo)
