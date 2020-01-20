@@ -9,7 +9,7 @@ permalink: /members
 - [Blayze](http://blayze.tech/) - [@Blayzeing](https://twitter.com/Blayzeing)
 - Fred - [@theguruofthree](https://twitter.com/theguruofthree)
 - [Harry](http://keiththerobot.uk/) - [@harrymerckel](https://twitter.com/harrymerckel)
-- Peter
+- Peter (Retired)
 - Robbie - [@RobbieKinghorn](https://twitter.com/RobbieKinghorn)
 - [Chris](http://zodiusinfuser.uk/) - [@ZodiusInfuser](https://twitter.com/ZodiusInfuser)
-- Simon (not pictured)
+- [Simon](http://simongt.com/) - [@morphashark](https://twitter.com/morphashark) (not pictured)
