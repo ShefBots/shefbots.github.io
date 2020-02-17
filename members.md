@@ -6,10 +6,13 @@ permalink: /members
 
 # Members ![Members Photo]({{ site.url }}/assets/members.jpg){: style="display: block; margin-left: auto; margin-right: auto; float: right; width: 45%"}
 (from left to right)
-- [Blayze](http://blayze.tech/) - [@Blayzeing](https://twitter.com/Blayzeing)
-- Fred - [@theguruofthree](https://twitter.com/theguruofthree)
-- [Harry](http://keiththerobot.uk/) - [@harrymerckel](https://twitter.com/harrymerckel)
-- Peter (Retired)
 - Robbie - [@RobbieKinghorn](https://twitter.com/RobbieKinghorn)
+- [Harry](http://keiththerobot.uk/) - [@harrymerckel](https://twitter.com/harrymerckel)
+- Fred - [@theguruofthree](https://twitter.com/theguruofthree)
+- [Blayze](http://blayze.tech/) - [@Blayzeing](https://twitter.com/Blayzeing)
+- [Simon](http://simongt.com/) - [@morphashark](https://twitter.com/morphashark)
 - [Chris](http://zodiusinfuser.uk/) - [@ZodiusInfuser](https://twitter.com/ZodiusInfuser)
-- [Simon](http://simongt.com/) - [@morphashark](https://twitter.com/morphashark) (inset photo)
+
+# Retired members
+(not shown)
+- Peter
