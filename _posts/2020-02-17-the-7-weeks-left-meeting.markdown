@@ -22,7 +22,7 @@ Chris has been making progress and has completed a good chunk of the chassis imp
 
 For the remaining attachments, we decided that we'll try and use a passive gripper sort of shaped like a giant C. There's a diagram of what this might look like below. We'd use it to push the barrels onto the zones, and then reverse away from them. An active gripper is still on the wish-list though if time allows. Robbie already has most of a turret built from a previous project we can use, and he can finish it up while we work on software.
 
-[Diagram of a c-shaped gripper]({{ site.url }}/assets/200217_gripper.png){: style="height: 10em;"} 
+![Diagram of a c-shaped gripper]({{ site.url }}/assets/200217_gripper.png){: style="height: 10em;"} 
 {: style="text-align: center;"}
 
 Unfortunately, the 360-degree camera that Blayze has been working on is the biggest casualty as his time is quite limited over the next few weeks. He doesn't have time to fully develop the neural network he was planning to use to extract angle and distance data from the captured images. We're still keeping the camera though, but instead of neural nets, we'll pivot to using traditional computer vision approaches to detect the presence of objects. The location of the object in the frame can then be used to identify the angle the object relative to the robot. This reduces the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) of our sensor system and lets all of us contribute.
@@ -41,6 +41,7 @@ So let's look at the prioritised software todo list then:
 4. Remote control
 5. Eco-disaster
 6. Turret control
+
 We've put eco-disaster near to the bottom, but Simon will continue to work on this as we recognize it does require a large time investment. Just, in terms of the competition scoring, it's better to have software for the other challenges rather than putting all of our eggs in one basket. This also means that the piwarsimulator is going to be focused on just the Ecodisaster challenge, and other control programs developed for the other challenges. While that may not be good practice for software design if we were selling a real robot, as separate single-purpose programs severely limits future expandability, the separate programs will let us develop software much faster.
 
 How much faster can we develop you ask? Well, you saw that I have a front-mounted camera mock-up. On the left below is a picture from the camera pointed at a line to follow. On the right is the MATLAB output from an algorithm to identify the line and decide what action the robot should take. This works for a variety of test photos. The next step is to port this algorithm to Python, run it on the Pi, and test with a video feed. Stay tuned for more detail on how this works in an upcoming blog post!
