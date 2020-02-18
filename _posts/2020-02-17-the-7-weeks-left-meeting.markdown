@@ -5,7 +5,7 @@ date:   2020-02-17 21:22:00 +0100
 categories: meetings
 ---
 
-So last week was our oh-dear-there's-only-7-weeks-left meeting. The main topic of discussion was are we sure we can get the robot done and working in time? Should we withdraw? We went through each of our areas and had a very close look at our progress, how much we estimated was left to do, and how much time we realistically had available. The long story short is that we can get things done. Let's dive into a bit more detail.
+So last week was our oh-dear-there's-only-7-weeks-left meeting. The main topic of discussion was "Are we sure we can get the robot done and working in time? Should we withdraw?" - asking the tough questions. We went through each of our areas and had a very close look at our progress, how much we estimated was left to do, and how much time we realistically had available. Long story short, although it'll be tight we're confident that we'll get things done in time. Let's dive into a bit more detail.
 
 On the hardware front, we admitted that progress had been slow, and there were still several tasks to complete. We've created a prioritised todo list that includes:
 1. New motor driver electronics
@@ -15,7 +15,7 @@ On the hardware front, we admitted that progress had been slow, and there were s
 5. Design and print a stand for the robot
 6. Theme decorations
 
-Chris has been making progress and has completed a good chunk of the chassis improvements (including improving the gear meshing), and nearly has the motor drive electronics finished (the in-progress stripboard layout is shown below). The plan is to pass the robot to Robbie and Harry for the final chassis improvements, camera and Pi mounts, and power systems on Tuesday. This is the minimum necessary for testing the software on real hardware. So next Monday/Tuesday I should be receiving the robot with hardware in a working state, giving Simon and I about a month to test/debug software on the real hardware. More on software development later.
+Chris has been making progress and has completed a good chunk of the chassis improvements (including improving the gear meshing), and nearly has the motor drive electronics finished (the in-progress stripboard layout is shown below). The plan is to pass the robot to Robbie and Harry for the final chassis improvements, camera and Pi mounts, and power systems on Wednesday. This is the minimum necessary for testing the software on real hardware. So next Monday/Tuesday I should be receiving the robot with hardware in a working state, giving Simon and I about a month to test/debug software on the real hardware. More on software development later.
 
 ![Improved gear meshing]({{ site.url }}/assets/200217_gears.jpg){: style="height: 14em;"} ![Strip board]({{ site.url }}/assets/200217_stripboard.png){: style="height: 14em;"}
 {: style="text-align: center;"}
