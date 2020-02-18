@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The 7 Weeks Left meeting"
-date:   2020-02-03 21:22:00 +0100
+date:   2020-02-17 21:22:00 +0100
 categories: meetings
 ---
 
