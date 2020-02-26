@@ -15,7 +15,7 @@ Continuing onwards, Chris is working on the final version of the motor driver el
 ![Wobble...]({{ site.url }}/assets/200203_wobbie.gif){: style="height: 14em;"}
 {: style="text-align: center;"}
 
-While talking about the EcoDisaster challenge at the last meeting we were pondering what to do if the barrel gets knocked over. Towards this end, we had the idea of using a hoop that goes down, rather than a gripper, to capture the barrels. This might also be mechanically simpler. Vaguely related, as in not at all - smooth segue I know, thanks Linus! - we realised that our best option to connect the Teensy controlling the motors (and other USB things) to the main control Pi will be to make our own USB cables. To that end, we've ordered some USB Type A plugs to go with the Micro USB plugs I've already got for that.
+While talking about the Eco-Disaster challenge at the last meeting we were pondering what to do if the barrel gets knocked over. Towards this end, we had the idea of using a hoop that goes down, rather than a gripper, to capture the barrels. This might also be mechanically simpler. Vaguely related, as in not at all - smooth segue I know, thanks Linus! - we realised that our best option to connect the Teensy controlling the motors (and other USB things) to the main control Pi will be to make our own USB cables. To that end, we've ordered some USB Type A plugs to go with the Micro USB plugs I've already got for that.
 
 ![Some assembly required]({{ site.url }}/assets/200203_assembly_required.png){: style="height: 7em;"}
 {: style="text-align: center;"}

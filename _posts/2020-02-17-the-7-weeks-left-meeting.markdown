@@ -32,17 +32,17 @@ To compensate for the lack of distance data from the 360-degree camera, we're go
 ![Forwards facing camera mockup]({{ site.url }}/assets/200217_forwards_camera.jpg){: style="height: 14em;"}
 {: style="text-align: center;"}
 
-Which brings us onto the software. At the start of the meeting, I was not confident about meeting the software requirements, especially given the relatively small window for testing on real hardware. Looking at the challenges, however, I realised I made a near-fatal error when considering the software - all my presuppositions about the time needed were predicated on the Ecodisaster challenge. Looking at it in detail, and discussing with the team, we decided that was the hardest challenge. The remaining AI challenges (line following, maze, and minesweeper) we expect to be easier to code for. I also realised that Simon and I weren't spending our time too effectively with both of us working on the Ecodisaster challenge.
+Which brings us onto the software. At the start of the meeting, I was not confident about meeting the software requirements, especially given the relatively small window for testing on real hardware. Looking at the challenges, however, I realised I made a near-fatal error when considering the software - all my presuppositions about the time needed were predicated on the Eco-Disaster challenge. Looking at it in detail, and discussing with the team, we decided that was the hardest challenge. The remaining AI challenges (line following, maze, and minesweeper) we expect to be easier to code for. I also realised that Simon and I weren't spending our time too effectively with both of us working on the Eco-Disaster challenge.
 
 So let's look at the prioritised software todo list then:
 1. Lava Palava (line following)
 2. Minesweeper
 3. Escape route (maze)
 4. Remote control
-5. Eco-disaster
+5. Eco-Disaster
 6. Turret control
 
-We've put eco-disaster near to the bottom, but Simon will continue to work on this as we recognize it does require a large time investment. Just, in terms of the competition scoring, it's better to have software for the other challenges rather than putting all of our eggs in one basket. This also means that the piwarsimulator is going to be focused on just the Ecodisaster challenge, and other control programs developed for the other challenges. While that may not be good practice for software design if we were selling a real robot, as separate single-purpose programs severely limits future expandability, the separate programs will let us develop software much faster.
+We've put Eco-Disaster near to the bottom, but Simon will continue to work on this as we recognize it does require a large time investment. Just, in terms of the competition scoring, it's better to have software for the other challenges rather than putting all of our eggs in one basket. This also means that the piwarsimulator is going to be focused on just the Eco-Disaster challenge, and other control programs developed for the other challenges. While that may not be good practice for software design if we were selling a real robot, as separate single-purpose programs severely limits future expandability, the separate programs will let us develop software much faster.
 
 How much faster can we develop you ask? Well, you saw that I have a front-mounted camera mock-up. On the left below is a picture from the camera pointed at a line to follow. On the right is the MATLAB output from an algorithm to identify the line and decide what action the robot should take. This works for a variety of test photos. The next step is to port this algorithm to Python, run it on the Pi, and test with a video feed. Stay tuned for more detail on how this works in an upcoming blog post!
 
