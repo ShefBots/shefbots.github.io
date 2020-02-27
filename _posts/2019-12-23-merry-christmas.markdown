@@ -12,7 +12,7 @@ Probably the best news is that we have a prototype chassis together! It's rough 
 ![Our prototype chassis assembled]({{ site.url }}/assets/191223_chassis.jpg){: style="height: 14em;"}
 {: style="text-align: center;"}
 
-You'll notice on top of the chassis the first prototype of Blayze's 360 degree vision system. Below, you can see what the output from it looks like (apologies for a photo of a screen). Unfortunately, if you look closely you can see that the motors obscure a significant portion of the view, and so Robbie will be redesigning for the front motors to lay parallel to the chassis. To help minimise occlusion further, Blayze will also be redesigning the camera mount for thinner and fewer supports.
+You'll notice on top of the chassis the first prototype of Blayze's 360-degree vision system. Below, you can see what the output from it looks like (apologies for a photo of a screen). Unfortunately, if you look closely you can see that the motors obscure a significant portion of the view, and so Robbie will be redesigning for the front motors to lay parallel to the chassis. To help minimise occlusion further, Blayze will also be redesigning the camera mount for thinner and fewer supports.
 
 ![Camera vision!]({{ site.url }}/assets/191223_camera.jpg){: style="height: 14em;"}
 {: style="text-align: center;"}

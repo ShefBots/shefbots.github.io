@@ -19,7 +19,7 @@ We've also had our motors arrive! This is just in time because Robbie has graced
 
 So chassis. Now that we have a mount assembly Robbie can work on getting the chassis together. I think I've mentioned this before, but there are two main design considerations for the chassis, a gripper and the camera mount. What about that attachment block? There are three main design considerations, a gripper, camera mount, attachment block, and launcher. There are four main design considerations... I'm sure you get the picture, there's a fair bit to consider still, but we're confident we can squeeze everything in. Peter is working on gripper development, and had a few thoughts on how tightly we might need to grip (loose) and if it needs two motors or one motor with some sort of linkages. 
 
-Continuing on design, Blayze now has a rough idea in CAD of what the camera mount could look like. As a reminder, the camera looks up and gets a 360 degree view. Based on this we're currently thinking alien abduction for a disaster theme. Sadly three legs probably turn to four... Or is that a good thing?
+Continuing on design, Blayze now has a rough idea in CAD of what the camera mount could look like. As a reminder, the camera looks up and gets a 360-degree view. Based on this we're currently thinking alien abduction for a disaster theme. Sadly three legs probably turn to four... Or is that a good thing?
 
 ![The best camera mount ever]({{ site.url }}/assets/191125_camera.jpg){: style="height: 14em;"}
 {: style="text-align: center;"}

@@ -17,7 +17,7 @@ After looking at the VEX wheels, the obvious follow-up question was motors. We k
 ![Geared motor mount]({{ site.url }}/assets/191027_gearing.png){: style="height: 14em;"} ![Direct drive fits]({{ site.url }}/assets/191027_justfit.png){: style="height: 14em;"}
 {: style="text-align: center;"}
 
-OK, OK, a little bit more about the electronics and sensors. Harry has been looking at 3S Li-Pos to go with 350 RPM 25D motors. This seems to be around the sweet spot of speed, current draw, and availability. Blayze is very excited about the idea of a 360 degree camera, and has plans to start doing simulations to train a neural network. High-tech! I'm feeling a lot more prosaic and really liking Harry's idea of an optical flow sensor - think like the pickup on a optical mouse. That and the IMU, or inertial measurement unit, I mentioned before to help keep track of where we've gone.
+OK, OK, a little bit more about the electronics and sensors. Harry has been looking at 3S Li-Pos to go with 350 RPM 25D motors. This seems to be around the sweet spot of speed, current draw, and availability. Blayze is very excited about the idea of a 360-degree camera, and has plans to start doing simulations to train a neural network. High-tech! I'm feeling a lot more prosaic and really liking Harry's idea of an optical flow sensor - think like the pickup on a optical mouse. That and the IMU, or inertial measurement unit, I mentioned before to help keep track of where we've gone.
 
 As for why we want mecanum wheels? Well, check out Chris' mini mecanum cruising sideways. TPU made all the difference...
 
