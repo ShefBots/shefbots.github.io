@@ -32,7 +32,7 @@ To compensate for the lack of distance data from the 360-degree camera, we're go
 ![Forwards facing camera mockup]({{ site.url }}/assets/200217_forwards_camera.jpg){: style="height: 14em;"}
 {: style="text-align: center;"}
 
-Which brings us onto the software. At the start of the meeting, I was not confident about meeting the software requirements, especially given the relatively small window for testing on real hardware. Looking at the challenges, however, I realised I made a near-fatal error when considering the software - all my presuppositions about the time needed were predicated on the Eco-Disaster challenge. Looking at it in detail, and discussing with the team, we decided that was the hardest challenge. The remaining AI challenges (line following, maze, and minesweeper) we expect to be easier to code for. I also realised that Simon and I weren't spending our time too effectively with both of us working on the Eco-Disaster challenge.
+Which brings us onto the software. At the start of the meeting, I was not confident about meeting the software requirements, especially given the relatively small window for testing on real hardware. Looking at the challenges, however, I realised I made a near-fatal error when considering the software - all my presuppositions about the time needed were predicated on the Eco-Disaster challenge. Looking at it in detail, and discussing with the team, we decided that was the hardest challenge. The remaining AI challenges (line following, maze, and Minesweeper) we expect to be easier to code for. I also realised that Simon and I weren't spending our time too effectively with both of us working on the Eco-Disaster challenge.
 
 So let's look at the prioritised software todo list then:
 1. Lava Palava (line following)
