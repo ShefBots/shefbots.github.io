@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A post Pi Jam post involving a moving robot"
-date:   2020-02-03 21:45:00 +0100
+date:   2020-02-03 21:45:00 +0000
 categories: meetings
 ---
 

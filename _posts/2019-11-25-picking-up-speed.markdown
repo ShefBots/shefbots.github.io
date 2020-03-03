@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Picking up speed"
-date:   2019-11-25 22:01:00 +0100
+date:   2019-11-25 22:01:00 +0000
 categories: meetings
 ---
 

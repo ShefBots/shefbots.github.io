@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Brief Update"
-date:   2019-12-09 19:59:00 +0100
+date:   2019-12-09 19:59:00 +0000
 categories: meetings
 ---
 

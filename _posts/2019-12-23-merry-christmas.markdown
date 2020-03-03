@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Merry Christmas!"
-date:   2019-12-23 18:03:00 +0100
+date:   2019-12-23 18:03:00 +0000
 categories: meetings
 ---
 

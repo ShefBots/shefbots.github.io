@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A little update"
-date:   2020-01-20 18:34:00 +0100
+date:   2020-01-20 18:34:00 +0000
 categories: meetings
 ---
 

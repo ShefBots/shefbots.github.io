@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Yes for Mecanum"
-date:   2019-10-27 21:31:00 +0100
+date:   2019-10-27 21:31:00 +0000
 categories: meetings
 ---
 
