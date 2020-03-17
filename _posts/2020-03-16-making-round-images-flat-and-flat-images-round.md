@@ -38,7 +38,7 @@ to Fusion 360 to go along with the rest of our work (although, given it's more o
 in the future). I started by positioning the camera at the origin and then set the bearing distance so that it would be exactly within the 30 degree minimum field of view of the PiCamera (that turned out 
 not to be the minimum field of view in practice), from here it was just a case of CAD'ing up something that'd support the bearing above the camera.
 
-![Bearing Support Sketches]({{ site.url }}/assets/200316_sketches.png){: style="height: 14em;"}
+![Bearing Support Sketches]({{ site.url }}/assets/200316_sketches.png){: style="height: 15.5em;"}
 {: style="text-align: center;"}
 
 The bearing support itself went through only one major re-design. Originally I'd parameterised it such that the width and total
@@ -47,7 +47,7 @@ too much of the surroudings, and they didn't line up with the motors of the robo
 To that end, a second version was designed with the goal of leveraging the strength of steel to support the camera on just two support legs - although in practice, the supports were thin enoug to allow for three
 thin 3D printe struts. The design also features A raspberry pi mount at the bottom and additional space on the top to mount a top panel to block sunlight or mount further sensors/markers.
 
-![3D CAD Drawings]({{ site.url }}/assets/200316_CADboth.png){: style="height: 14em;"}
+![3D CAD Drawings]({{ site.url }}/assets/200316_CADboth.png){: style="height: 15.5em;"}
 {: style="text-align: center;"}
 
 In both desgins, it was very important to keep the supports as far away from the camera as reasonably possible, as closer, thicker supports would occlude more of the surroundings than thinner, further away ones -
@@ -69,7 +69,7 @@ processing out of whack.
 Now, up until this point I've only discussed practical, hands-on things that while time-consuming, aren't exactly outside the expected when it comes to entering a challenge like PiWars. But now we're about
 to take a detour to software engineering town, with a service-station stop at mathsville. So far, all our images have been coming in like this:
 
-![An Input Image]({{ site.url }}/assets/200316_warpedinput.png){: style="height: 14em;"}
+![An Input Image]({{ site.url }}/assets/200316_warpedinput.png){: style="height: 16.5em;"}
 {: style="text-align: center;"}
 
 Originally the plan was to build a neural-network based solution to object recognition and assessment that would simply take these images in and tell us everything we needed to know. However, with increasing
@@ -80,7 +80,7 @@ distance to an object.
 
 In order to dewarp the image, a mapping between each pixel on the output (360-degree) image and any given pixel on the input image (of a reflective sphere). The diagram below sums this up quite well:
 
-![Dewarp Diagram]({{ site.url }}/assets/200316_dewarpdiagram.png){: style="height: 14em;"}
+![Dewarp Diagram]({{ site.url }}/assets/200316_dewarpdiagram.png){: style="height: 15em;"}
 {: style="text-align: center;"}
 
 In this diagram the red line represents a ray coming from the outside world into the camera and we want to calculate the angle, _a_, between the incoming ray and the camera's vertical axis. This will let us
@@ -93,7 +93,7 @@ and on the reflected line we have no gradient as that is determined by it's rela
 of re-arranging and re-representing I decided that a numerical solution would be best. Similar to [finding the root of an equation using numerical methods](https://en.wikipedia.org/wiki/Bisection_method),
 I implemented a simulator for the system that would iterate along the length of the reflector until the reflected ray's gradient was equal to some arbitarily set target gardient:
 
-![An Animation showing the reflection solver]({{ site.url }}/assets/200316_regressionanimation.gif){: style="height: 14em;"}
+![An Animation showing the reflection solver]({{ site.url }}/assets/200316_regressionanimation.gif){: style="height: 15.5em;"}
 {: style="text-align: center;"}
 
 This allowed a target gradient to be calculated by converting a required angle from the horizontal to a direction vector. The algorithm essentially steps every N degrees, and compares the reflected ray's angle
@@ -102,7 +102,7 @@ until the target gradient is reached.
 
 Doing this allowed me to generate angles at any given point, so all that was left was to calculate every ray gradient for every angle of a field of view (in this case, between the horizon and 60 degrees below it):
 
-![All reflection rays an a dewarped image]({{ site.url }}/assets/200316_finaldewarp.png){: style="height: 14em;"}
+![All reflection rays an a dewarped image]({{ site.url }}/assets/200316_finaldewarp.png){: style="height: 15.5em;"}
 {: style="text-align: center;"}
 
 An added bonus to using a numerical approach to finding the desired angle over any analytical approach is that the solver is generalisable to non-spherical surfaces. In the future I would be interested in
@@ -112,7 +112,7 @@ With every angle on the vertical generated, all that is required is some way of 
 built an application in Java. This program displays the input image as well as a reticule, which once aligned uses the numerical method to generate a dewarping lookup table which can then be exported for use in
 python, allowing each pixel value of the dewarped image to be retrieved via `output[x][y] = getColourAt(lookuptable[x][y][0], lookupTable[x][y][1])`.
 
-![Warped Image Configurator]({{ site.url }}/assets/200316_dewarpreticule.png){: style="height: 14em;"}
+![Warped Image Configurator]({{ site.url }}/assets/200316_dewarpreticule.png){: style="height: 16em;"}
 {: style="text-align: center;"}
 
 The idea behind this it that any language that can process the lookup table can dewarp the image. Indeed, the Java program itself uses the lookuptable as well as the python program running on the robot. In an
