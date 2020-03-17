@@ -1,5 +1,11 @@
+---
+layout: post
+title:  "Making Round Images Flat and Flat Images Round"
+date:   2020-03-17 00:58:00 +0000
+author: Blayze
+categories: vision camera
+---
 
-## Making Round Images Flat And Flat Images Round
 Hi! It's Blayze from the ShefBots PiWars team!
 Currently I'm 33,000 feet above Middle Kuyto, Finland and about two and a half hours into a 10 hour flight, so I figured now was as good a time as any to write a PiWars blog post!
 
