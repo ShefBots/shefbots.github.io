@@ -1,7 +1,4 @@
 ---
-layout: post
-title:  "Making Round Images Flat and Flat Images Round"
-date:   2020-03-17 00:58:00 +0000
 author: Blayze
 categories: vision camera
 ---
