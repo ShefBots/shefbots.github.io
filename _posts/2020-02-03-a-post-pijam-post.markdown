@@ -27,7 +27,7 @@ We've also now roughly worked out the serial protocol we'll be using to talk to 
 ![What could be our packet format]({{ site.url }}/assets/200203_checksum.png){: style="height: 5em;"}
 {: style="text-align: center;"}
 
-The short term goal is to have everything assembled enough in the next two weeks to hook up the control Pi and test controlling the real hardware with our control software. That's not everything though, so it looks like as we get closer to PiWars we'll be getting busier and busier. We'll close out though with a clip of the robot scooting along to keep our spirits up!
+The short term goal is to have everything assembled enough in the next two weeks to hook up the control Pi and test controlling the real hardware with our control software. That's not everything though, so it looks like as we get closer to Pi Wars we'll be getting busier and busier. We'll close out though with a clip of the robot scooting along to keep our spirits up!
 
 <video height="640" width="360" style="margin-left: auto; margin-right: auto; width: 480px; height: 270px; display: block; border: solid 1px white; margin-top: 5px; margin-bottom: 5px" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/200203_scooch.mp4">

@@ -3,17 +3,17 @@ author: Blayze
 categories: vision camera
 ---
 
-Hi! It's Blayze from the ShefBots PiWars team!
-Currently I'm 33,000 feet above Middle Kuyto, Finland and about two and a half hours into a 10 hour flight, so I figured now was as good a time as any to write a PiWars blog post!
+Hi! It's Blayze from the ShefBots Pi Wars team!
+Currently I'm 33,000 feet above Middle Kuyto, Finland and about two and a half hours into a 10 hour flight, so I figured now was as good a time as any to write a Pi Wars blog post!
 
 About a month ago I posted a picture of our team's 360-degree camera to Twitter that caught some attention:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the most satisfying 3D print assemblies I&#39;ve made. This is the 360 camera for our <a href="https://twitter.com/ShefRoboteers?ref_src=twsrc%5Etfw">@ShefRoboteers</a> <a href="https://twitter.com/hashtag/piwars?src=hash&amp;ref_src=twsrc%5Etfw">#piwars</a> robot - inspired by my own work in the field of biomimetic insect navigation. Next up: A neural net! <a href="https://twitter.com/ZodiusInfuser?ref_src=twsrc%5Etfw">@ZodiusInfuser</a> <a href="https://twitter.com/theguruofthree?ref_src=twsrc%5Etfw">@theguruofthree</a> <a href="https://twitter.com/RobbieKinghorn?ref_src=twsrc%5Etfw">@RobbieKinghorn</a> <a href="https://twitter.com/morphashark?ref_src=twsrc%5Etfw">@morphashark</a> <a href="https://twitter.com/hashtag/HYPE?src=hash&amp;ref_src=twsrc%5Etfw">#HYPE</a> <a href="https://t.co/MlSbsag9ld">pic.twitter.com/MlSbsag9ld</a></p>&mdash; Blayze Millward (@Blayzeing) <a href="https://twitter.com/Blayzeing/status/1218548607298736129?ref_src=twsrc%5Etfw">January 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the most satisfying 3D print assemblies I&#39;ve made. This is the 360 camera for our <a href="https://twitter.com/ShefRoboteers?ref_src=twsrc%5Etfw">@ShefRoboteers</a> <a href="https://twitter.com/hashtag/piwars?src=hash&amp;ref_src=twsrc%5Etfw">#PiWars</a> robot - inspired by my own work in the field of biomimetic insect navigation. Next up: A neural net! <a href="https://twitter.com/ZodiusInfuser?ref_src=twsrc%5Etfw">@ZodiusInfuser</a> <a href="https://twitter.com/theguruofthree?ref_src=twsrc%5Etfw">@theguruofthree</a> <a href="https://twitter.com/RobbieKinghorn?ref_src=twsrc%5Etfw">@RobbieKinghorn</a> <a href="https://twitter.com/morphashark?ref_src=twsrc%5Etfw">@morphashark</a> <a href="https://twitter.com/hashtag/HYPE?src=hash&amp;ref_src=twsrc%5Etfw">#HYPE</a> <a href="https://t.co/MlSbsag9ld">pic.twitter.com/MlSbsag9ld</a></p>&mdash; Blayze Millward (@Blayzeing) <a href="https://twitter.com/Blayzeing/status/1218548607298736129?ref_src=twsrc%5Etfw">January 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 In this post I'll be going over the camera system and talking about some of the trials and tribulations it took to get it to work.
 
 ### The Why
-A number of the PiWars challenges require some kind of vision system in order to either pick up barrels, follow lines or go to certain areas, and in particular, the "Eco Disaster" 
+A number of the Pi Wars challenges require some kind of vision system in order to either pick up barrels, follow lines or go to certain areas, and in particular, the "Eco Disaster" 
 and "Minesweeper" challenges require quite a wide range of vision, with target objects appearing behind and in front of the robot. It seemed that these challenges 
 the robot could benefit from being able to process it's entire surroudnings simultaneously, without the need to worry about reorienting and aligning views/measurements from a single-directioned
 camera or sensor array - a process that would take up valuable in-task time and could also introduce errors into the odometry readings of the robot.
@@ -63,7 +63,7 @@ near default. On top of this, I found the whitebalance to be rather temporementa
 processing out of whack.
 
 ### Dewarping The Image
-Now, up until this point I've only discussed practical, hands-on things that while time-consuming, aren't exactly outside the expected when it comes to entering a challenge like PiWars. But now we're about
+Now, up until this point I've only discussed practical, hands-on things that while time-consuming, aren't exactly outside the expected when it comes to entering a challenge like Pi Wars. But now we're about
 to take a detour to software engineering town, with a service-station stop at mathsville. So far, all our images have been coming in like this:
 
 ![An Input Image]({{ site.url }}/assets/200316_warpedinput.png){: style="height: 16.5em;"}

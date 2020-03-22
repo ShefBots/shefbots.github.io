@@ -5,7 +5,7 @@ date:   2020-03-02 23:27:00 +0000
 categories: meetings
 ---
 
-So a quick recap of our now weekly catch-up meetings. This is a bit light on details to save time, so I may have missed a bit, but I've got the highlights here for you if nothing else. We started out with a catch up and risk assessment on the health situation. We're happy that PiWars is keeping us up to date, and we'll be following along with their, university, and DHSC guidance. We currently think the risk is low and are happy to attend under the current conditions. We've now got our hotel and travel sorted.
+So a quick recap of our now weekly catch-up meetings. This is a bit light on details to save time, so I may have missed a bit, but I've got the highlights here for you if nothing else. We started out with a catch up and risk assessment on the health situation. We're happy that Pi Wars is keeping us up to date, and we'll be following along with their, university, and DHSC guidance. We currently think the risk is low and are happy to attend under the current conditions. We've now got our hotel and travel sorted.
 
 In hardware news, the power system is now installed, although a little bit of final tweaking is needed (good work Chris and Harry over the weekend). Harry is working on the final electronics. That is, the Teensy LC control and interface board, which will connect to the Pi via USB. It'll control 2x servos, 2x ESCs, and interface with the RC receiver, 2x ultrasonic modules, a protractor, and WS2812b RGB LEDs. The decision on the ultrasonics and protractor are a late addition after our discussions on the maze.
 
