@@ -29,7 +29,7 @@ We've also now roughly worked out the serial protocol we'll be using to talk to 
 
 The short term goal is to have everything assembled enough in the next two weeks to hook up the control Pi and test controlling the real hardware with our control software. That's not everything though, so it looks like as we get closer to Pi Wars we'll be getting busier and busier. We'll close out though with a clip of the robot scooting along to keep our spirits up!
 
-<video height="640" width="360" class="centrvideo" controls>
+<video height="640" width="360" class="centrvideowide" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/200203_scooch.mp4">
   <source type="video/webm" src="{{ site.baseurl }}/assets/200203_scooch.webm">
   <source type="video/ogg" src="{{ site.baseurl }}/assets/200203_scooch.ogv">

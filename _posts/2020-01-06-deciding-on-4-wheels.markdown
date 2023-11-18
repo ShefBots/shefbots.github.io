@@ -17,7 +17,7 @@ In theory this style of chassis would have given our robot the widest range of l
 
 Speaking of legs, we, well I, even talked about using the axles as the first joints of fully articulated spider legs as a "stretch goal", seeing as I was preparing a [Pi Wars Mini Conference](https://piwarsmc.org/) talk about walking robots at the time. I even simulated it in my [Walker Simulator](https://github.com/ZodiusInfuser/TrueWalkSimulator).
 
-<video height="640" width="360" class="centrvideo" controls>
+<video height="640" width="360" class="centrvideowide" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/200106_walker.mp4">
   <source type="video/webm" src="{{ site.baseurl }}/assets/200106_walker.webm">
   <source type="video/ogg" src="{{ site.baseurl }}/assets/200106_walker.ogv">
