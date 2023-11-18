@@ -15,8 +15,8 @@ Thanks, Cave, that was lovely. Leading up to the release of Portal 2, Valve Soft
 
 The first half of the script pretty much wrote itself, around the idea of a spinning model of our robot. To the extent that I have typed "Hi, we at ShefBots are here to tell you today about our all-purpose search-and-rescue robot, the ShefBot Mark 1b." off the top of my head. It's not exactly what's in the script, but it's pretty close. When I wrote it out originally, I just carried on from that, listing out the 1b's features in my head, with that sort of calm voice with a bit of extra inflexion. What you'll have heard (or will hear later on in this post) recorded for the video is pretty much how I wrote it originally, said the same way as I heard it in my head.
 
-![The script, pretty much unchanged]({{ site.url }}/assets/200429_script.png){: style="height: 12em;"}
-{: style="text-align: center;"}
+![The script, pretty much unchanged]({{ site.url }}/assets/200429_script.png){: class="hight"}
+{: class="centr"}
 
 The second half of the script was a bit harder as to write, as this was to be the section on the real-world demonstrations. *Which I didn't have any footage of at the time I wrote the first half.* I knew vaguely what I wanted to demonstrate - line following and minesweeper - as I had working code for these. The rest our robot's software is kind of half-finished. We had planned to finish the code up in the two or three weeks before the competition in some fun collaborative hackathon sessions, but as the competition was delayed that took a back seat to more pressing matters. I was a bit worried about how I was going to take up an estimated 2 or 3 minutes with only two demos, but I hit upon the idea of explaining in a bit more detail how things worked. Eventually. It took a while to think of, so in the end, I took the day off of work the Friday before the competition to clear as much floor space in my room as possible, film the demonstrations, write the descriptions around them, and finish all of the recording and video editing. Friday was a very long day, but the video was finished in the early morning hours of Saturday.
 
@@ -24,18 +24,18 @@ The second half of the script was a bit harder as to write, as this was to be th
 
 Why a 3D model instead of real footage of the robot? Basically, while I have the robot at my house at the moment, my hands are not steady and lighting in my room is not good, leading to blurry footage I wouldn't want to watch. If I don't want to watch it, I don't want to force anyone else to watch it either. I also couldn't figure out a way to shoot footage for a good background. But we have a Fusion 360 model of entire robot that looks great! Of course, I was worried about rendering the model as I haven't really been involved with our Fusion 360 model at all and don't know how to use it very well. Harry assured me however he could do (and did do) a spinning render of our model, which to my mind was all we really needed. I could start and stop the spin, speeding up or slowing down the footage to get the transitions we needed.
 
-![Yes, it does spin General]({{ site.url }}/assets/200429_rotate.gif){: style="height: 14em;"}
-{: style="text-align: center;"}
+![Yes, it does spin General]({{ site.url }}/assets/200429_rotate.gif){: class="hight"}
+{: class="centr"}
 
 Uh oh! Our model wasn't up to date! Several changes had been made by hand that hadn't been reflected in the model. This is largely the reason our video was made the weekend before Virtual PiWars. Everyone was busy! Chris eventually got the time to update the model though, including textures, to make the model look really good. Fantastic job Chris!
 
-![Chris' very nice render]({{ site.url }}/assets/200429_goodrender.png){: style="height: 14em;"}
-{: style="text-align: center;"}
+![Chris' very nice render]({{ site.url }}/assets/200429_goodrender.png){: class="hight"}
+{: class="centr"}
 
 It was around the time Chris was working on the model that I remembered seeing [this video](https://www.youtube.com/watch?v=_3loq22TxSc) about programming in PowerPoint. As in, Turing complete programming. But the thing I was really interested in was the second half of this video, where a feature of PowerPoint called the Morph transition is discussed, and how on slide changes it smoothly animates between objects in the slides. And another feature of PowerPoint - to embed 3D models! - is discussed. Could I embed the model of our robot, and animate everything using PowerPoint? The *nix user in me shuddered, but the practical part of me was thinking "gosh, that would save a lot of time". Chris had some problems getting Fusion 360 to export texture information, but eventually through the power of Blender (no surprise there!) got something exported that at least had colour. It all came together perfectly. Here's a test we did, with the model animating in PowerPoint.
 
-![Yes, PowerPoint can render a model]({{ site.url }}/assets/200429_ppttest.gif){: style="height: 14em;"}
-{: style="text-align: center;"}
+![Yes, PowerPoint can render a model]({{ site.url }}/assets/200429_ppttest.gif){: class="hight"}
+{: class="centr"}
 
 It was also around the time of Chris working on the model that I admit I went off the rails a little bit. I started browsing through the [YouTube Audio Library](https://www.youtube.com/audiolibrary/music) for background music, and searching for "calm" or "tranquil" or some such, and came across the track "Same Time" by Spence. And then things went off the rails for a bit. I questioned everything. Because I discovered our script... also worked as a rap. See below.
 

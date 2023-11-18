@@ -10,14 +10,14 @@ With Christmas and the New Year out the way (Happy 2020!), our team is back and 
 
 When we submitted our application back at the end of September 2019, our proposal was for a 4 mecanum-style wheeled robot. You may be interested to hear this wasn't our first idea. In fact we had quite lengthy discussions online about different chassis ideas, including trikes and tanks. One particularly promising option that stayed with us for a while was that of a 6-wheeled chassis with independent feedback-driven control for each axle. Below you can see our first concept design.
 
-![First robot concept]({{ site.url }}/assets/200106_6wheelconcept.png){: style="height: 14em;"}
-{: style="text-align: center;"}
+![First robot concept]({{ site.url }}/assets/200106_6wheelconcept.png){: class="hight"}
+{: class="centr"}
 
 In theory this style of chassis would have given our robot the widest range of locomotion options possible, by swapping what was attached to it for each challenge. For example, it could've had regular wheels or tracks for speed challenges, mecanums for navigation challenges, or whegs for rough terrain challenges. For those who've never heard of them, Whegs or wheel-legs are wheels that are only in contact with the ground for part of their rotation, with the rest of the rotation allowing them to clear obstacles like legs can. The particular style we were interested in was that of the [Boston Dynamics RHex](https://www.youtube.com/watch?v=ISznqY3kESI), but there are more spoke-like styles such as what Fred comically tried on one of his [ant-weight robots](https://twitter.com/i/status/1197996851632463872).
 
 Speaking of legs, we, well I, even talked about using the axles as the first joints of fully articulated spider legs as a "stretch goal", seeing as I was preparing a [Pi Wars Mini Conference](https://piwarsmc.org/) talk about walking robots at the time. I even simulated it in my [Walker Simulator](https://github.com/ZodiusInfuser/TrueWalkSimulator).
 
-<video height="640" width="360" style="margin-left: auto; margin-right: auto; width: 480px; height: 270px; display: block; border: solid 1px white; margin-top: 5px; margin-bottom: 5px" controls>
+<video height="640" width="360" class="centrvideo" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/200106_walker.mp4">
   <source type="video/webm" src="{{ site.baseurl }}/assets/200106_walker.webm">
   <source type="video/ogg" src="{{ site.baseurl }}/assets/200106_walker.ogv">
@@ -27,7 +27,7 @@ Needless to say, the "stretch goal" was quickly shot down as it introduced a lot
 
 Going for 4 axles still left us with a choice of what to mount on them though. This is where Harry's previous experience of competing in Pi Wars with his KEITH robots became hugely valuable! He told us that "getting tracks right is a fair challenge in itself", so recommended we go for "something as close to holonomic as possible" instead. Holonomic for ground robots essentially means that for each of the movements possible by a robot in two-dimensions e.g. drive, strafe, rotate, it needs at least that many independently controllable wheels. Mecanum wheels were the obvious choice for this, as they allow for this movement in any direction whilst having the axles be arranged like a car, giving us the option to switch to regular wheels or tracks should we need to. Also, mecanum robots have seen success at previous year's competitions so we knew from a hardware standpoint that they were capable. I personally watched PiDER 3.0 tackle several of the 2019 courses when I visited as a spectator, and know that Tigerbot and X-Bot did well the year before.
 
-![PiDER 3.0 at Pi Wars 2019]({{ site.url }}/assets/200106_pider2019.jpg){: style="height: 14em;"}
-{: style="text-align: center;"}
+![PiDER 3.0 at Pi Wars 2019]({{ site.url }}/assets/200106_pider2019.jpg){: class="hight"}
+{: class="centr"}
 
 There's the story of how we ended up with our robot proposal for Pi Wars 2020. There is more I can cover about our exploration of mecanum wheels and their control, but I'll leave that for another week.
