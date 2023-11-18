@@ -9,3 +9,5 @@ $mobile-font-size:     14px;
 @import "base";
 h1, h2, h3, h4, h5, h6 { font-size: $base-font-size + 2; }
 main p { padding-top: 4px; padding-bottom: 4px }
+.centr { text-align: center }
+.hight { height: 14em }
