@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "We're back!"
+date:   2023-11-18 22:11:00 +0000
+categories: [meetings, updates]
+---
+
+We're back!
+
+Why're we back?
+
+When we heard that Pi Wars was back with it's unfortunately disastrously-timed 2020 Disaster Zone challenge, we were excited for a couple reasons. When the event was cancelled we were about to have a weekend-long hackathon to finish our robot, the Mark 1b. Real life events took importance however and our robot has sat unfinished, with little motivation to remedy that situation. But! With the event back all the ideas we had are slowly coming back too. Not only that, but we've all learned more about robotics in that time and there's been new technology! [Better Pis](https://www.raspberrypi.com/news/introducing-raspberry-pi-5/), [better cameras](https://www.raspberrypi.com/news/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/), the [RP2040](https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/), and more! Yes, it has been an exciting few years. And while the technology has changed, we've changed too. We've graduated, moved, found new jobs, and more. It's sometimes been a bit of a challenge to get together, but Pi Wars has gotten us motivated to get together and mess with robots some more. So yes, we're back.
+
+![We're pleased we rediscovered our robot (Jurassic Park style)]({{ site.url }}/assets/231118_jurassic-robot-crunchy.gif){: style="height: 14em;"}
+
+But where did we leave off? After dusting off the 1b, it's fun to look back at what we've done. To see where we saw far enough into the future that the technology hasn't changed on us. To see what we could improve now with technology and our new skills. We started our review with watching our [Pi Wars 2020 video entry](https://www.youtube.com/watch?v=BlXzRxTyxiw). I'm not going to lie, I was dyeing laughing re-watching it. I absolutely tried to hype things up, sometimes at the expense of technical accuracy, but I'd like to think it's like hearing about a certain robot being analogue, nuclear. It doesn't have to make sense, just get you excited for robotics and we certainly were!
+
+![The ShefBot Mark 1b!]({{ site.url }}/assets/231118_themark1b.jpg){: style="height: 14em;"}
+
+After acknowledging our incomplete sensor/control systems and our perhaps less than stellar theming, we were still really happy with the wheels, motor drivers, and chassis. Addressing the broader of those we have a few ideas for theming. Nuclear power plant inspired. Possibly Red Alert 2. Definitely more lighting. Sound effects. The never fully transplanted heart of the Mark 1b is the [360 degree vision system]({{ site.url }}/vision/camera/2020/03/16/making-round-images-flat-and-flat-images-round.html) and while designing the robot we didn't know if it was going to work and so planned in several redundant sensor systems, we now have a lot [more confidence it will work](https://www.youtube.com/watch?v=fhpSTtRSrWY) we plan to use it as the main system, removing the now redundant front facing camera and only having one or two additional time of flight sensors for ground truth reference with a revamped RP2040-based input board. We also think we have a good plan for tying both in with control logic and getting fully autonomous. The launcher is back on the radar and won't use radar but will use laser.
+
+So going forward we have a plan for the robot. What's being kept, or rebuilt where we have the technology. We even have a plan for our promotions video - classy this time, we promise! This time we'll be publishing fewer blog posts, with our smaller team focused on getting everything built and working. Smaller team? Yes we're now down to a four person team of myself (Fred), Blayze, Robbie, and Chris. From all of us, we're pleased to be back and look forward to seeing everyone's progress over the next months and competing in March. Pi Wars Disaster Zone is back, but it won't be a disaster! See you next year!
