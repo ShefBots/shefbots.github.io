@@ -14,8 +14,8 @@ Let's start with where we left off at the end of the previous post. Chris has ma
 
 Speaking of control, Harry now has an Arduino Mega successfully receiving data from a radio controller for remote control. This will give us 6 channels (axis, dial, or switch) of input, which should be more than enough for the manually drive challenges. On the robot the Mega will actually be a second Teensy dedicated to sensor input, and also connect to the Pi via USB. To help visualise how our electronics will work for us to plan out assembly and wiring, Harry's created a block diagram. This is part of the electronics design coming together - we're going with fairly beefy TLE5206 motor drivers.
 
-![Electronics block diagram]({{ site.url }}/assets/191209_blockdiagram.png){: style="width: 60%;"}<br/>[Click for larger version]({{ site.url }}/assets/191209_blockdiagram.png)
-{: style="text-align: center; font-size: 80%"}
+![Electronics block diagram]({{ site.url }}/assets/191209_blockdiagram.png){: class="hight"}<br/>[Click for larger version]({{ site.url }}/assets/191209_blockdiagram.png)
+{: class="centr"}
 
 If you look at the block diagram, you'll that there are two Raspberry Pis! We're taking a modular approach, with a lot of duties off-loaded from the main Raspberry Pi so that we can work on several parts of the robot in parallel. The second Raspberry Pi will run Blayze's computer vision system. If you recall, this consists of a Raspberry Pi Camera looking up at a ball bearing. You can see below that Blayze has finished designing, 3D printing, and assembling the first version of the mount. I wasn't sure I believed it at first, but the ball-bearing really is very shiny and reflects well. I'm more convinced having seen this now. The whole mount will sit on top of the robot. And if it doesn't work very well, our modular design system will let us substitute in alternate camera/sensing systems.
 

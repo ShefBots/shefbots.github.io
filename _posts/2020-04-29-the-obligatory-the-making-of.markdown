@@ -9,7 +9,7 @@ Hi all! It's the week after Virtual PiWars! I admit I was disappointed events co
 
 Pretty much immediately after Chris shared the event announcement with the team, I was on board with doing a video. Largely because I immediately knew the type of video I wanted to make. Let's take a look at my primary inspiration:
 
-<iframe style="margin: auto;display: table;width: 426px; height: 240px" src="https://www.youtube.com/embed/6i-nMWgBUp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="centrvideo" src="https://www.youtube.com/embed/6i-nMWgBUp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Thanks, Cave, that was lovely. Leading up to the release of Portal 2, Valve Software released [a](https://www.youtube.com/watch?v=0qcED35LL8I) [set](https://www.youtube.com/watch?v=AZMSAzZ76EU) [of](https://www.youtube.com/watch?v=6i-nMWgBUp0) [four](https://www.youtube.com/watch?v=wX9Sc88qreg&t=7s) of these quick, snappy, trailers detailing some of the technology of Aperature Science. At the time I really adored these, I enjoyed how well they flowed and the minimalistic style. Having started playing around with video editing the last year or so, I didn't think to replicate this style was beyond me. This type of video (although a bit more serious) has also been quite common in crowd-funding campaigns. So if we're going to show off our robot, why not try and do it in a fun way that tries to "sell" our robot?
 
@@ -45,7 +45,7 @@ I laughed for a good solid 5 minutes after I recorded this. Sadly, I realised th
 
 Making the video ended up largely similar to just making a presentation. At least half of my time was making a slide and animating it. The new bit in PowerPoint for me was timing the slide and adding transitions between the slides. There was also a fair bit of fiddling with camera settings for the 3D model. After enough slides, I then recorded the voice over. Then jiggered with all of the timings and re-recorded the voice over. Check out how it turned out.
 
-<iframe style="margin: auto;display: table;width: 426px; height: 240px" src="https://www.youtube.com/embed/BlXzRxTyxiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="centrvideo" src="https://www.youtube.com/embed/BlXzRxTyxiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Overall I'm really pleased. It's 20 or so hours of my life I'll never get back, but I learned some new things about PowerPoint, timing, recording, editing, and YouTube. I had a blast making the video and I've really enjoyed my friend's reactions to it.
 
