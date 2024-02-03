@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "A 2024 Update"
+date:   2024-02-03 19:50:00 +0000
+categories: [meetings, updates]
+---
+
+Oh hey. Didn't see you there.
+
+Oh us? We've just been having a catch-up meeting.
+
+Yeah, it's been busy over Christmas.
+
+Haha, Happy New Year to you too! I guess it's not too late to say that in February?
+
+Well, even if it is too late, I can always talk at you about robots!
+
+Hey wait! Don't run away! Don't you want to hear about what Blayze has been doing on the 360° vision system? He's been working on getting the 360° image de-warped to a [top-down view](https://github.com/ShefBots/spherical-360-dewarper/tree/top-down) for interpreting as sensor input for our control system.
+
+360° is old news? What! Well how about what Chris has been doing. He's been doing lots, something of that is surely interesting? He's written some code for directly connecting a radio controller directly to the Pi. Turns out it basically uses one-way serial, convenient! We'll need to figure out a button layout for the controller, but we're saving that for later. Chris has been having lots of cereal over the last few weeks-
+
+No, cereal vs serial is NOT an old joke! And anyway, Chris has been messing with the serial protocol for communicating with our sensor Pico (which used to be a Teensy) and communicating with our motor controller board (still with a Teensy). How do you tell /dev/ttyUSB* serial ports apart? Not as simply as telling Cheerios from Corn Flakes, that's for sure!
+
+![Serial vs Serial vs Cereal vs Cereal]({{ site.url }}/assets/240203_spiderman.jpg){: class="hight"}
+{: class="centr"}
+
+Ahaha, see, that's how you do a serial joke! Along with getting the Pi 4 booting up again, Chris has also made some progress with getting our [time of flight sensors](https://shop.pimoroni.com/products/adafruit-vl53l4cd-time-of-flight-distance-sensor-1-to-1300mm-stemma-qt-qwiic?variant=39773753180243) working in MicroPython, really putting his work driver-writing skills to work for not work.
+
+![Time-of-flight sensor output tests]({{ site.url }}/assets/240203_tof.png){: class="hight"}
+{: class="centr"}
+
+What do you mean I haven't done any work? I've done loads of work! A hundred-something commits worth to our [PiWars Simulator](https://github.com/ShefBots/piwarsimulator), which while I never got very far with it last year now actually mostly works! It will even eventually not just do simulation but also do our robot control, just replacing virtual sensors and motors with real ones! Look at the robot wave! How awesome is that?
+
+![Our simulated robot waving]({{ site.url }}/assets/240203_flappy.gif){: class="hight"}
+{: class="centr"}
+
+Well I mean, sure it's maybe not as awesome as Robbie's work scheming how we're going to shoot zombies, but we can't all be thinking about launching disks or would darts actually be OK and what about fly wheels or gears. Some of us just write code. A lot of code, *sniff*, thousands of lines, *sniff*. But it's worth it! All the challenges we want to automate are automated. Just that itty-bitty little Eco-Disaster thing left...
+
+You think we can do it? Hah, well, 10 weeks or so left to find out for sure!
