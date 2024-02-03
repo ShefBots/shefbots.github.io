@@ -29,7 +29,7 @@ Ahaha, see, that's how you do a serial joke! Along with getting the Pi 4 booting
 ![Time-of-flight sensor output tests]({{ site.url }}/assets/240203_tof.png){: class="hight"}
 {: class="centr"}
 
-What do you mean I haven't done any work? I've done loads of work! A hundred-something commits worth to our [PiWars Simulator](https://github.com/ShefBots/piwarsimulator), which while I never got very far with it last year now actually mostly works! It will even eventually not just do simulation but also do our robot control, just replacing virtual sensors and motors with real ones! Look at the robot wave! How awesome is that?
+What do you mean I haven't done any work? I've done loads of work! A hundred-something commits worth to our [PiWars Simulator](https://github.com/ShefBots/piwarsimulator), which while I never got very far with it for PiWars 2020 now actually mostly works! It will even eventually not just do simulation but also do our robot control, just replacing virtual sensors and motors with real ones! Look at the robot wave! How awesome is that?
 
 ![Our simulated robot waving]({{ site.url }}/assets/240203_flappy.gif){: class="hight"}
 {: class="centr"}
