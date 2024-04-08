@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "We're in the End Game now"
-date:   2024-02-03 19:50:00 +0000
+date:   2024-04-08 22:34:00 +0000
 categories: [updates]
 ---
 
@@ -14,20 +14,20 @@ Chris is pulling together our final styling:
 
 Blayze is working on the final neural network training for the vision system:
 
-![A render from the vision system]({{ site.url }}/assets/240408_vision.jpg){: class="hight"} 
+![A render from the vision system]({{ site.url }}/assets/240408_vision.png){: class="hight"} 
 {: class="centr"}
 
 Robbie is handling the design of our final launcher attachment:
 
-![A render of the in design launcher]({{ site.url }}/assets/240408_launcher.jpg){: class="hight"} 
+![A render of the in-design launcher]({{ site.url }}/assets/240408_launcher.png){: class="hight"} 
 {: class="centr"}
 
 At the moment every challenge I've programmed the simulator for can be solved and with Chris' effort on the sensor board we've started integration testing. A fun few issues were had with trying to use the gripper crashing the software stack - we had bugs in both our codes! (Too frequent polling on my end and a missing global on Chris'.) Some great progress on the Escape Route though:
 
-<video height="480" width="960" class="centrvideo" controls>
+<video height="480" width="960" class="centrvideo21" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/240408_simulator.mp4">
 </video>
-<video height="480" width="854" class="centrvideo" controls>
+<video height="480" width="854" class="centrvideowide" controls>
   <source type="video/mp4" src="{{ site.baseurl }}/assets/240408_reality.mp4">
 </video>
 
